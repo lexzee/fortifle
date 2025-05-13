@@ -1,0 +1,98 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.landing {
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  /* margin-top: auto; */
+  color: rgb(18, 0, 46);
+}
+
+.card {
+  background-color: #fdfdfd;
+  padding: 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.card input[type="file"],
+.card input[type="text"],
+.card select {
+  width: 92%;
+  padding: 10px;
+  /* margin-bottom: 12px; */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.card button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto");
+}
+.card .google {
+  background: #f2f2f2;
+  width: 80%;
+  font-family: "Roboto", sans-serif;
+  color: #1f1f1f;
+  padding: 0 0 0 8px;
+  gap: 0.2em;
+  justify-content: flex-start;
+}
+
+.card .google:hover {
+  background-color: #f2f2f2;
+}
+
+.msg {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}

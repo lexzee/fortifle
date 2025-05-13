@@ -1,0 +1,51 @@
+# ===== Backend ======
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Venv
+venv/
+env/
+.venv/
+
+# Env var and sec
+.env
+*.env
+fortifile-keyfile.json
+
+# Local upload dir
+uploads/
+*.enc
+*.sig
+*.meta.json
+*.pem
+*.key
+
+# Log files
+*.log
+*.log.*
+
+# ===== Frontend =====
+frontend/node_modules
+frontend/build
+frontend/dist
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/.vscode
+
+
+
+# ====== General ======
+.vscode/
+*.dump
+PQClean/
